@@ -1,0 +1,525 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio : Shalni Bharti</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec98924cef.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#skill"> Skills </a></li>
+                    <li><a href="#service">Service </a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+
+            <section class="home">
+                <div class="home-content">
+                    <h3>Hello, It's me</h3>
+                    <h1>Shalni Bharti</h1>
+                    <h3>And I'm a <br><span class="text"></span></h3>
+                    <p style="text-align: justify;">I am a third-year Electronics Engineering student and MERN Full Stack Developer. </p>
+                    <p style="text-align: justify;" class="hide">Proficient in front-end, back-end, and databases. Passionate about leveraging technology to create innovative solutions and ensure seamless user experiences</p>
+                    <br>
+                    <div class="home-sci">
+                        <a href="https://github.com/Shalni19Bharti"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shalni-bharti-402bb122a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/shalnibharti_19"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/shalni_bharti/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <!-- ABOUT SECTION -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Pic 1.png" class="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span style="color:#ff004f;">me</span></h1>
+                    <br>
+                    <p>
+                        Welcome to my portfolio ! I'm Shalni, a third-year Electronics and Communication Engineering student in Chandigarh Engineering Colleges. 
+                        Originating from Muzaffarpur, Bihar. I completed my 10th grade at Paramount Academy School, securing 76.8%.
+                        After that , I ventured to Punjab for my diploma at "Sant Longowal Institute of Engineering and Technology", achieving
+                        a stellar 9.28 CGPA in electronics and Communication Engineering. Now, I am pursuing B.Tech, specializing in Electronic Engineering. 
+                        My journey encompasses a range of experiences, including proficiency in front-end development (HTML, CSS, JS), expertise in backend 
+                        technologies like Node.js and Express.js, databases (MySQL, MongoDB), and IoT knowledge. Additionally, I've explored cloud services, 
+                        showcasing my commitment to excellence in various technologies
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="opnetab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opnetab('educations')">Educations</p>
+                        <p class="tab-links" onclick="opnetab('projects')">Project</p>
+                    </div>
+
+                    <div class="tab-contents skill" id="skills"> 
+                        <ul>
+                            <li><span>Web Development</span><br><br>Utilizing HTML, CSS, JavaScript for frontend and Node.js, Express.js for backend in full-stack Web development.</li>
+                            <li><span>Database Management</span><br><br>Proficient in managing databases, employing SQL and NoSQL(MongoDB) technologies and secure data storage.</li>
+                            <li><span>Programming Languages</span><br><br>Skilled in Java programming language, ensuring robust, scalable, and efficient solutions with strong object - oriented principles.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>Bachelor of Technology in ECE</span><br><br>Chandigarh Engineering Colleges (Chandigarh) <br> CGPA : 8.33 (Jul'22 - Jul'25)</li>
+                            <li><span>Diploma in ECE: </span><br><br>Sant Longowal Institute of Engineering and Technology - SLIET (Punjab) <br>CGPA : 9.28 (Jul'19 - Jul'22)</li>
+                            <li><span>10th Grade: </span><br><br>Paramount Academy School (Muzaffarpur , Bihar) <br> Grade : 76.2% (2019)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Wanderlust</span><br><br>Travel app capturing adventures worldwide.</li>
+                            <li><span>Simon Game </span><br><br>Electronic memory challenge testing pattern recognition and recall skills.</li>
+                            <li><span>Door Lock System</span><br><br>Security implementation using password-based access control for enhanced protection.</li>
+                            <li><span>Line Follower Car</span><br><br>Autonomous vehicle navigating paths using sensors and algorithms.</li>
+                            <li><span>Clone - Spotify & Amazon</span><br><br>Understanding the Existing system , Learning , Customization , Modification and also Open source Contribution.</li>
+                            <li><span>Bulk Mailer Page for CGC</span><br><br>Utilizes efficient technology for large-scale and effective email distribution.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title">My <span style="color:#ff004f;">Skills</span></h1>
+
+        <div class="knowledge">
+                <li>
+                    <h3 style="margin:5px;">HTML</h3>
+                    <span class="sum"><span class="html"></span></span>
+                </li>
+                <li>
+                    <h3>CSS</h3>
+                    <span class="sum"><span class="css"></span></span>
+                </li>
+                <li>
+                    <h3>JavaScript</h3>
+                    <span class="sum"><span class="js"></span></span>
+                </li>
+                <li>
+                    <h3>Node js / Express js</h3>
+                    <span class="sum"><span class="node"></span></span>
+                </li>
+                <li>
+                    <h3>DataBase(SQL / mongoDB)</h3>
+                    <span class="sum"><span class="database"></span></span>
+                </li>
+                <li>
+                    <h3>Java / Java+DSA</h3>
+                    <span class="sum"><span class="java"></span></span>
+                </li>
+                <li>
+                    <h3>Framework / UI-UX </h3>
+                    <span class="sum"><span class="framework"></span></span>
+                </li>
+                <li>
+                    <h3>GitBase / GitHub </h3>
+                    <span class="sum"><span class="git"></span></span>
+                </li>
+        </div>
+    </div> 
+    </div>
+
+
+    <!-- SERVICE SECTION -->
+
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title"> My <span style="color:#ff004f;">Services</span></h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>As a UI/UX designer, I craft interfaces using tools like Figma, HTML, and CSS. My focus is on user-centric experiences, and I embrace collaboration through effective communication and version control !</p>
+                    <a href="#contact" class="call"> Contact me </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Full-Stack Web Design</h2>
+                    <p>When I say 'Web Designing,' it's about harmonizing aesthetics and functionality, crafting visually engaging websites !</p>
+                    <a href="#contact" class="call"> Contact me </a>
+                </div>
+                <div>               
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Editing , Data Entry </h2>
+                    <p>As an editor, I craft polished content with precision & In data entry, I ensure accurate and organized data input for seamless information management ! </p>
+                    <a href="#contact" class="call"> Contact me </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- PROJECT SECTION -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My <span style="color:#ff004f;">Project List</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Project-1.jpg">
+                    <div class="layer">
+                        <h3>WANDERLUST</h3>
+                        <p style="text-align: justify;">Wanderlust, a hotel book platform, features captivating front-end design, secure user authentication, and a robust backend with Node.js and MongoDB. Secure, and engaging experiences for travel enthusiasts globally !
+                        </p>
+                        <a href="https://wanderlust-mgdq.onrender.com/listings"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project-2.jpg">
+                    <div class="layer">
+                        <h3>SIMON GAMES</h3>
+                        <p style="text-align: justify;">Simon Game: Memory challenge with pattern recall. Technologies used include HTML, CSS, JavaScript for interactive gameplay and user engagement !
+                        </p>
+                        <a href="https://github.com/Shalni19Bharti/SIMON_GAME"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project-3.jpeg">
+                    <div class="layer">
+                        <h3>IOT BASED PROJECT</h3>
+                        <p style="text-align: justify;"> The objective of Door Lock System is tmplements secure access via password using Arduino and Hex Keypad. Ensures reliable protection with embedded technology for enhanced security
+                        </p>
+                        <a href="https://github.com/Shalni19Bharti/IOT-Based-Repo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Shalni19Bharti" class="btn"> See more</a>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span style="color:#ff004f;">me</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shalnibharti315@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9631760394</p>
+
+                    <div class="social-icon">
+                        <a href="https://github.com/Shalni19Bharti"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shalni-bharti-402bb122a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/shalnibharti_19"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100078541210812"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/shalni_bharti/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Shalni-Resume.pdf" download class="btn btn-2" style="color:white"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn-2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p> Developed with shalni <i class="fa-regular fa-copyright"></i> 2024 </p> <br>
+            <p>All rights reserved ! Unauthorized use prohibited.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio : Shalni Bharti</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec98924cef.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#skill"> Skills </a></li>
+                    <li><a href="#service">Service </a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+
+            <section class="home">
+                <div class="home-content">
+                    <h3>Hello, It's me</h3>
+                    <h1>Shalni Bharti</h1>
+                    <h3>And I'm a <br><span class="text"></span></h3>
+                    <p style="text-align: justify;">I am a third-year Electronics Engineering student and MERN Full Stack Developer. </p>
+                    <p style="text-align: justify;" class="hide">Proficient in front-end, back-end, and databases. Passionate about leveraging technology to create innovative solutions and ensure seamless user experiences</p>
+                    <br>
+                    <div class="home-sci">
+                        <a href="https://github.com/Shalni19Bharti"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shalni-bharti-402bb122a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/shalnibharti_19"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/shalni_bharti/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <!-- ABOUT SECTION -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Pic 1.png" class="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span style="color:#ff004f;">me</span></h1>
+                    <br>
+                    <p>
+                        Welcome to my portfolio ! I'm Shalni, a third-year Electronics and Communication Engineering student in Chandigarh Engineering Colleges. 
+                        Originating from Muzaffarpur, Bihar. I completed my 10th grade at Paramount Academy School, securing 76.8%.
+                        After that , I ventured to Punjab for my diploma at "Sant Longowal Institute of Engineering and Technology", achieving
+                        a stellar 9.28 CGPA in electronics and Communication Engineering. Now, I am pursuing B.Tech, specializing in Electronic Engineering. 
+                        My journey encompasses a range of experiences, including proficiency in front-end development (HTML, CSS, JS), expertise in backend 
+                        technologies like Node.js and Express.js, databases (MySQL, MongoDB), and IoT knowledge. Additionally, I've explored cloud services, 
+                        showcasing my commitment to excellence in various technologies
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="opnetab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opnetab('educations')">Educations</p>
+                        <p class="tab-links" onclick="opnetab('projects')">Project</p>
+                    </div>
+
+                    <div class="tab-contents skill" id="skills"> 
+                        <ul>
+                            <li><span>Web Development</span><br><br>Utilizing HTML, CSS, JavaScript for frontend and Node.js, Express.js for backend in full-stack Web development.</li>
+                            <li><span>Database Management</span><br><br>Proficient in managing databases, employing SQL and NoSQL(MongoDB) technologies and secure data storage.</li>
+                            <li><span>Programming Languages</span><br><br>Skilled in Java programming language, ensuring robust, scalable, and efficient solutions with strong object - oriented principles.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>Bachelor of Technology in ECE</span><br><br>Chandigarh Engineering Colleges (Chandigarh) <br> CGPA : 8.33 (Jul'22 - Jul'25)</li>
+                            <li><span>Diploma in ECE: </span><br><br>Sant Longowal Institute of Engineering and Technology - SLIET (Punjab) <br>CGPA : 9.28 (Jul'19 - Jul'22)</li>
+                            <li><span>10th Grade: </span><br><br>Paramount Academy School (Muzaffarpur , Bihar) <br> Grade : 76.2% (2019)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Wanderlust</span><br><br>Travel app capturing adventures worldwide.</li>
+                            <li><span>Simon Game </span><br><br>Electronic memory challenge testing pattern recognition and recall skills.</li>
+                            <li><span>Door Lock System</span><br><br>Security implementation using password-based access control for enhanced protection.</li>
+                            <li><span>Line Follower Car</span><br><br>Autonomous vehicle navigating paths using sensors and algorithms.</li>
+                            <li><span>Clone - Spotify & Amazon</span><br><br>Understanding the Existing system , Learning , Customization , Modification and also Open source Contribution.</li>
+                            <li><span>Bulk Mailer Page for CGC</span><br><br>Utilizes efficient technology for large-scale and effective email distribution.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title">My <span style="color:#ff004f;">Skills</span></h1>
+
+        <div class="knowledge">
+                <li>
+                    <h3 style="margin:5px;">HTML</h3>
+                    <span class="sum"><span class="html"></span></span>
+                </li>
+                <li>
+                    <h3>CSS</h3>
+                    <span class="sum"><span class="css"></span></span>
+                </li>
+                <li>
+                    <h3>JavaScript</h3>
+                    <span class="sum"><span class="js"></span></span>
+                </li>
+                <li>
+                    <h3>Node js / Express js</h3>
+                    <span class="sum"><span class="node"></span></span>
+                </li>
+                <li>
+                    <h3>DataBase(SQL / mongoDB)</h3>
+                    <span class="sum"><span class="database"></span></span>
+                </li>
+                <li>
+                    <h3>Java / Java+DSA</h3>
+                    <span class="sum"><span class="java"></span></span>
+                </li>
+                <li>
+                    <h3>Framework / UI-UX </h3>
+                    <span class="sum"><span class="framework"></span></span>
+                </li>
+                <li>
+                    <h3>GitBase / GitHub </h3>
+                    <span class="sum"><span class="git"></span></span>
+                </li>
+        </div>
+    </div> 
+    </div>
+
+
+    <!-- SERVICE SECTION -->
+
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title"> My <span style="color:#ff004f;">Services</span></h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>As a UI/UX designer, I craft interfaces using tools like Figma, HTML, and CSS. My focus is on user-centric experiences, and I embrace collaboration through effective communication and version control !</p>
+                    <a href="#contact" class="call"> Contact me </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Full-Stack Web Design</h2>
+                    <p>When I say 'Web Designing,' it's about harmonizing aesthetics and functionality, crafting visually engaging websites !</p>
+                    <a href="#contact" class="call"> Contact me </a>
+                </div>
+                <div>               
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Editing , Data Entry </h2>
+                    <p>As an editor, I craft polished content with precision & In data entry, I ensure accurate and organized data input for seamless information management ! </p>
+                    <a href="#contact" class="call"> Contact me </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- PROJECT SECTION -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My <span style="color:#ff004f;">Project List</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Project-1.jpg">
+                    <div class="layer">
+                        <h3>WANDERLUST</h3>
+                        <p style="text-align: justify;">Wanderlust, a hotel book platform, features captivating front-end design, secure user authentication, and a robust backend with Node.js and MongoDB. Secure, and engaging experiences for travel enthusiasts globally !
+                        </p>
+                        <a href="https://wanderlust-mgdq.onrender.com/listings"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project-2.jpg">
+                    <div class="layer">
+                        <h3>SIMON GAMES</h3>
+                        <p style="text-align: justify;">Simon Game: Memory challenge with pattern recall. Technologies used include HTML, CSS, JavaScript for interactive gameplay and user engagement !
+                        </p>
+                        <a href="https://github.com/Shalni19Bharti/SIMON_GAME"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project-3.jpeg">
+                    <div class="layer">
+                        <h3>IOT BASED PROJECT</h3>
+                        <p style="text-align: justify;"> The objective of Door Lock System is tmplements secure access via password using Arduino and Hex Keypad. Ensures reliable protection with embedded technology for enhanced security
+                        </p>
+                        <a href="https://github.com/Shalni19Bharti/IOT-Based-Repo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Shalni19Bharti" class="btn"> See more</a>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span style="color:#ff004f;">me</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shalnibharti315@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9631760394</p>
+
+                    <div class="social-icon">
+                        <a href="https://github.com/Shalni19Bharti"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shalni-bharti-402bb122a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/shalnibharti_19"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100078541210812"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/shalni_bharti/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Shalni-Resume.pdf" download class="btn btn-2" style="color:white"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn-2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p> Developed with shalni <i class="fa-regular fa-copyright"></i> 2024 </p> <br>
+            <p>All rights reserved ! Unauthorized use prohibited.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+>>>>>>> 6938f4f (Some Changes)
